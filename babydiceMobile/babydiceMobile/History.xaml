@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="babydiceMobile.History"
+             xmlns:local="clr-namespace:babydiceMobile">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Roll History"
+                   FontSize="Title"
+                   TextColor="white"
+                   FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   x:Name="hoodlabel"/>
+
+            <ListView x:Name="historylistview"
+                      SeparatorColor="White"
+                      x:FieldModifier="public static">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding result}" 
+                                       TextColor="white" 
+                                       VerticalOptions="Center" 
+                                       FontSize="Medium"
+                                       Grid.Column="0"/>
+                                
+                                <Image Source="{Binding image}" 
+                                       HorizontalOptions="End"
+                                       Grid.Column="1 "/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            
+            
+            <Button Text="pressme"
+                    Clicked="Updatehistory"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

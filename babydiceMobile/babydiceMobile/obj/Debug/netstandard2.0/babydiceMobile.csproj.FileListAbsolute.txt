@@ -1,0 +1,17 @@
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\bin\Debug\netstandard2.0\babydiceMobile.deps.json
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\bin\Debug\netstandard2.0\babydiceMobile.dll
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\bin\Debug\netstandard2.0\babydiceMobile.pdb
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\babydiceMobile.csproj.AssemblyReference.cache
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\babydiceMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\babydiceMobile.AssemblyInfoInputs.cache
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\babydiceMobile.AssemblyInfo.cs
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\babydiceMobile.csproj.CoreCompileInputs.cache
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\babydiceMobile.dll
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\refint\babydiceMobile.dll
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\babydiceMobile.pdb
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\ref\babydiceMobile.dll
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\Dice.xaml.g.cs
+C:\Users\jonah\source\repos\babydiceMobile\babydiceMobile\babydiceMobile\obj\Debug\netstandard2.0\History.xaml.g.cs

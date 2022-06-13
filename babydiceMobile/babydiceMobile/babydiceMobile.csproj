@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <ApplicationIcon>dice.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+    <Authors>$JonahKing</Authors>
+    <PackageIcon>dice.jpg</PackageIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\d10.png" />
+    <None Remove="images\d100.png" />
+    <None Remove="images\d12.png" />
+    <None Remove="images\d2.jpg" />
+    <None Remove="images\d20.png" />
+    <None Remove="images\d4.png" />
+    <None Remove="images\d6.png" />
+    <None Remove="images\d8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="dice.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="images\d10.png" />
+    <EmbeddedResource Include="images\d100.png" />
+    <EmbeddedResource Include="images\d12.png" />
+    <EmbeddedResource Include="images\d2.jpg" />
+    <EmbeddedResource Include="images\d20.png" />
+    <EmbeddedResource Include="images\d4.png" />
+    <EmbeddedResource Include="images\d6.png" />
+    <EmbeddedResource Include="images\d8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\OneDrive\Desktop\releases\dice.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="DicePage.xaml.cs">
+      <DependentUpon>DicePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Dice.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DicePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="History.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
